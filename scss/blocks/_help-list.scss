@@ -1,0 +1,21 @@
+.help__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    max-width: 1088px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.help__item {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.help-item {
+}
+.help-item__img {
+    min-width: 180px;
+    display: block;
+}

@@ -1,0 +1,29 @@
+.make__services-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+}
+.make__services-item {
+    margin-right: 18px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width:750px) {
+    .make__services-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .make__services-item {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    
+        &:last-child {
+            margin-right: 0;
+            margin-bottom: 0;
+        }
+    }
+}

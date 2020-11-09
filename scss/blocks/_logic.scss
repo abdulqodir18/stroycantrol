@@ -1,0 +1,120 @@
+.logic {
+  margin-bottom: 150px;
+
+}
+.logic__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img/logic-bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 117px 38px;
+  border-radius: 6px;
+}
+.logic__title {
+  margin: 0;
+  margin-bottom: 54px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #212B31;
+  max-width: 980px;
+}
+@media only screen and (max-width:1000px) {
+  .logic__container {
+    background-size: 100%;
+  }
+  .logic__title {
+    font-size: 26px;
+    line-height: 36px;
+    max-width: 800px;
+  }
+}
+@media only screen and (max-width:768px) {
+  .logic__title {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 34px;
+  }
+
+}
+@media only screen and (max-width:550px) {
+  .logic__title {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 25px;
+
+  }
+}
+@media only screen and (max-width:450px) {
+  .logic__container {
+    padding: 40px 0px;
+    width: 100%;
+  }
+  .logic__title {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    max-width: 100%;
+  }
+
+}
+
+.logic__inner {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logik__links {
+  text-decoration: none;
+  padding: 13px 25px;
+  background-color: #212B31;
+  border: 1px solid #212B31;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.logik__links--white {
+  background-color: #FFFFFF;
+  border: 1px solid #DADEDF;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #212B31;
+  margin-left: 16px;
+}
+
+@media only screen and (max-width:768px) {
+  .logik__links {
+    font-size: 16px;
+    list-style: 20px;
+    padding: 8px 15px;
+
+  }
+}
+@media only screen and (max-width:550px) {
+  .logik__links {
+    font-size: 14px;
+    list-style: 18px;
+    padding: 4px 10px;
+  }
+}
+@media only screen and (max-width:380px) {
+  .logik__links {
+    font-size: 10px;
+    list-style: 16px;
+    padding: 3px 8px;
+  }
+}

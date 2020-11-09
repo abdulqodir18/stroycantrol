@@ -1,0 +1,45 @@
+.make-services-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    &::before {
+        content: "";
+        display: block;
+        width: 48px;
+        height: 48px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: 20px;
+    }
+    
+}
+.make-services-item--student::before {
+    background-image: url("../../img/student.png");
+}
+.make-services-item--key::before {
+    background-image: url("../../img/key.png");
+}
+.make-services-item--persent::before {
+    background-image: url("../../img/percent.png");
+}
+.make-services-item__title {
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+.make-services-text {
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+}

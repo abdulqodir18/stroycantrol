@@ -8,153 +8,539 @@
 </head>
 <body>
 
-  <main class="main-content">
+  <!-- header -->
 
+  <header class="site-header">
+    <div class="site-header__container">
+      <a class="site-header__logo" href="#">
+        <img class="sit-header__logo-img" src="img/logo.svg" alt="logo" width="236" height="44">
+      </a>
 
-    <!-- ABOUT -->
-
-    <section class="about">
-      <div class="container">
-        <h2 class="about__heading">Что такое СтройКонтроль?</h2>
-        <p class="about__text">СтройКонтроль - это интеллектуальная система управления доставкой, предоставляющая информацию и контроль материалов на сложных строительных площадках в режиме реального времени.</p>
-
-
-        <ul class="about__list">
-          <li class="about__list-item about-info about-info--tracking">
-            <div class="about-info__inner">
-              <h3 class="about-info__heading">Отслеживайте доставку по всей цепочке поставок</h3>
-              <p class="about-info__description">От поставщика до субподрядчика - вы всегда знаете, где находятся ваши материалы, благодаря чему обычные отходы уходят в прошлое и сокращаются несчастные случаи на месте.</p>
-            </div>
-          </li>
-
-          <li class="about__list-item about-info about-info--optimization">
-            <div class="about-info__inner">
-              <h3 class="about-info__heading">Оптимизируйте и контролируйте свое прибытие на место</h3>
-              <p class="about-info__description">Транспортные средства доставки прибывают в фиксированные промежутки времени в заранее назначенные отсеки, где разгрузочное оборудование готово и ждет их.</p>
-            </div>
-          </li>
-
-          <li class="about__list-item about-info about-info--realtime">
-            <div class="about-info__inner">
-              <h3 class="about-info__heading">Возьмите под контроль данные в режиме реального времени</h3>
-              <p class="about-info__description">Интеллектуальная отчетность дает вам возможность принимать решения в зависимости от того, как обстоят дела в данный момент. Больше никаких ручных отчетов по заливке бетона или ежемесячной проверки 10.000 накладных со счетами, все это доступно онлайн без каких-либо усилий.</p>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- delivery -->
-
-    <section class="delivery">
-      <div class="container">
-        <h2 class="delivery__title">Доставка стала проще</h2>
-        <p class="delivery__text">Мы позаботимся обо всех ваших различных поставках и их многочисленных 
-          специализированных требованиях к разгрузке.</p>
-
-          <ul class="delivery__list">
-            <li class="delivery__item delivery-item  delivery-item--beton">
-              <div class="delivery-item__wrapper">
-                <h3 class="delivery-item__title">Бетон</h3>
-                <p class="delivery-item__text">Поставки бетона точно планируются, а его состояние контролируется,
-                   что обеспечивает максимально возможное время для установки.</p>
-              </div>
+      <nav class="site-header__nav site-nav">
+        <div class="site-nav__wrapper">
+          <ul class="site-nav__list">
+            <li class="site-nav__item site-nav-item">
+              <a class="site-nav-item__link site-nav-item__link--active" href="#">Главная</a>
             </li>
-            <li class="delivery__item delivery-item  delivery-item--removal">
-              <div class="delivery-item__wrapper">
-                <h3 class="delivery-item__title">Бетон</h3>
-                <p class="delivery-item__text">Поставки бетона точно планируются, а его состояние контролируется,
-                   что обеспечивает максимально возможное время для установки.</p>
-              </div>
+            <li class="site-nav__item site-nav-item">
+              <a class="site-nav-item__link" href="#">Главная</a>
             </li>
-            <li class="delivery__item delivery-item  delivery-item--fromwork">
-              <div class="delivery-item__wrapper">
-                <h3 class="delivery-item__title">Бетон</h3>
-                <p class="delivery-item__text">Поставки бетона точно планируются, а его состояние контролируется,
-                   что обеспечивает максимально возможное время для установки.</p>
-              </div>
+            <li class="site-nav__item site-nav-item">
+              <a class="site-nav-item__link" href="#">Главная</a>
             </li>
-            
-            <li class="delivery__item delivery-item  delivery-item--precasts">
-              <div class="delivery-item__wrapper">
-                <h3 class="delivery-item__title">Бетон</h3>
-                <p class="delivery-item__text">Поставки бетона точно планируются, а его состояние контролируется,
-                   что обеспечивает максимально возможное время для установки.</p>
-              </div>
+            <li class="site-nav__item site-nav-item">
+              <a class="site-nav-item__link" href="#">Главная</a>
             </li>
-            <li class="delivery__item delivery-item  delivery-item--facades">
-              <div class="delivery-item__wrapper">
-                <h3 class="delivery-item__title">Бетон</h3>
-                <p class="delivery-item__text">Поставки бетона точно планируются, а его состояние контролируется,
-                   что обеспечивает максимально возможное время для установки.</p>
-              </div>
+            <li class="site-nav__item site-nav-item">
+              <a class="site-nav-item__link" href="#">Главная</a>
             </li>
-            <li class="delivery__item delivery-item  delivery-item--fit-out">
-              <div class="delivery-item__wrapper">
-                <h3 class="delivery-item__title">Бетон</h3>
-                <p class="delivery-item__text">Поставки бетона точно планируются, а его состояние контролируется,
-                   что обеспечивает максимально возможное время для установки.</p>
-              </div>
+            <li class="site-nav__item site-nav-item">
+              <a class="site-nav-item__link" href="#">Главная</a>
             </li>
-            
-            <li class="delivery__item delivery-item  delivery-item--lesa">
-              <div class="delivery-item__wrapper">
-                <h3 class="delivery-item__title">Бетон</h3>
-                <p class="delivery-item__text">Поставки бетона точно планируются, а его состояние контролируется,
-                   что обеспечивает максимально возможное время для установки.</p>
-              </div>
+            <li class="site-nav__item site-nav-item">
+              <a class="site-nav-item__link" href="#">Главная</a>
             </li>
-            <li class="delivery__item delivery-item  delivery-item--obro">
-              <div class="delivery-item__wrapper">
-                <h3 class="delivery-item__title">Бетон</h3>
-                <p class="delivery-item__text">Поставки бетона точно планируются, а его состояние контролируется,
-                   что обеспечивает максимально возможное время для установки.</p>
-              </div>
-            </li>
-            <li class="delivery__item delivery-item  delivery-item--mep">
-              <div class="delivery-item__wrapper">
-                <h3 class="delivery-item__title">Бетон</h3>
-                <p class="delivery-item__text">Поставки бетона точно планируются, а его состояние контролируется,
-                   что обеспечивает максимально возможное время для установки.</p>
-              </div>
-            </li>
-            
           </ul>
-          <p class="delivery__text-more">...<span class="delivery__text-more-span">и все остальные материалы,</span><br>которые поступают или покидают вашу площадку</p>
-      </div>
-    </section>
 
-    <section class="reliable">
-      <div class="container">
-        <h2 class="reliable__title">Надёжность</h2>
-        <p class="reliable__text">Благодаря надёжному строительству выигрывают все - муниципальные органы выполняют свои обязанности перед гражданами, инвесторы получают сертификаты своих проектов, а генеральные подрядчики получают повышенную репутацию.</p>
+          <a class="site-nav__link" href="#">Заказать демо</a>
+        </div>
+      </nav>
 
-        <ul class="reliable__list">
-          <li class="reliable__item reliable-item">
-              <h3 class="reliable-item__title">Сниженное загрязнение</h3>
-              <p class="reliable-item__text">При оптимизации логистики требуется меньше поездок, что приводит к снижению выбросов CO2. Выбрасываемый CO2 контролируется, что позволяет ставить цели и вносить ощутимые улучшения.</p>
-          </li>
+      <button class="site-header__button" aria-label="menu" type="button"></button>
+    </div>
+  </header>
 
-          <li class="reliable__item reliable-item">
-              <h3 class="reliable-item__title">Сниженное загрязнение</h3>
-              <p class="reliable-item__text">При оптимизации логистики требуется меньше поездок, что приводит к снижению выбросов CO2. Выбрасываемый CO2 контролируется, что позволяет ставить цели и вносить ощутимые улучшения.</p>
-          </li>
-          
-          <li class="reliable__item reliable-item">
-              <h3 class="reliable-item__title">Сниженное загрязнение</h3>
-              <p class="reliable-item__text">При оптимизации логистики требуется меньше поездок, что приводит к снижению выбросов CO2. Выбрасываемый CO2 контролируется, что позволяет ставить цели и вносить ощутимые улучшения.</p>
-          </li>
-
-        </ul>
-
-        <div class="reliable__reliable-more reliable-more">
-          <p class="reliable-more__text"><b>Надёжная конструкция</b>СтройКонтроль входит в стандартную комплектацию.</p>
-          <a class="reliable-more__link" href="#">Подробнее</a>
+  <!-- main -->
+  <main class="main-content">
+    
+    <!-- hero -->
+    
+    <section class="hero">
+      <div class="container hero-container">
+        <h1 class="hero__title">Умная доставка материалов для сложных строительных площадок</h1>
+        <div class="hero__inner">
+          <a class="logik__links" href="#">Заказать демо</a>
+          <a class="logik__links logik__links--white" href="#">Подробнее</a>
         </div>
       </div>
     </section>
+    
+    <section class="intro-list">
+      <div class="container">
+        <ul class="intro__list intro-list">
+          <li class="intro-list__item">
+            <h2 class="intro-lista__title">Повышение эффективности</h2>
+            <p class="intro-list__text">Эффективные проекты стоят дешевле 
+              и завершаются в срок.</p>
+            </li>
+            
+            <li class="intro-list__item">
+              <h2 class="intro-lista__title">Повышение эффективности</h2>
+              <p class="intro-list__text">Эффективные проекты стоят дешевле 
+                и завершаются в срок.</p>
+              </li>
+              
+              <li class="intro-list__item">
+                <h2 class="intro-lista__title">Повышение эффективности</h2>
+                <p class="intro-list__text">Эффективные проекты стоят дешевле 
+                  и завершаются в срок.</p>
+                </li>
+              </ul>
+            </div>
+            
+          </section>  
+          
+          <!-- disorder -->
+          <section class="disorder">
+            <div class="container disorder-container">
+              <div class="disorede__inner">
+                <h2 class="disorder__title">Строительство - это хаос</h2>
+                <p class="disorder__text">Хаос может быть удивительной творческой силой, воздвигающая новые здания из пыли.
+                  Хаос вызывает несчастные случаи, задержки и потери. Он вводит проекты в стресс и разочарование.
+                  Это означает, что вы действительно не контролируете ситуацию.</p>
+              </div>
+              <p class="disorder__offer">Пора навести порядок на вашей стройплощадке и взять под контроль свой проект</p>
+            </div>
+          </section>
 
-  </main>
+          <!-- helper -->
 
-</body>
-</html>
+          <section class="helper">
+            <div class="container help-container">
+              <div class="help__inner">
+                <div class="help__inner-wrapper">
+                  <h2 class="help__title">Мы заботимся о доставке на стройплощадку и о людях, которые на них рассчитывают</h2>
+                  <p class="help__text">Мы знаем всё о гордости от сияющего нового здания. Нам также известно всё о разочаровании от попыток завершить проект в срок и в рамках бюджета.</p>
+                  <p class="help__offer">Мы здесь, чтобы помочь.</p>
+                </div>
+              </div>
+
+              <ul class="help__list">
+                <li class="help__item help-item">
+                  <img class="help-item__img" src="img/besix.png" alt="BESIX" width="180" height="76"
+                  srcset="img/besix.png 1x, img/besix@2x.png 2x">
+                </li>
+                <li class="help__item help-item">
+                  <img class="help-item__img" src="img/sixconstruct.png" alt="SIXCONSTRUCT" width="180" height="60"
+                  srcset="img/sixconstruct.png 1x, img/sixconstruct@2x.png 2x">
+                </li>
+                <li class="help__item help-item">
+                  <img class="help-item__img" src="img/echo.png" alt="ECH" width="180" height="90"
+                  srcset="img/echo.png 1x, img/echo@2x.png 2x">
+                </li>
+                <li class="help__item help-item">
+                  <img class="help-item__img" src="img/kalima.png" alt="KAJIMA" width="180" height="72"
+                  srcset="img/kalima.png 1x, img/kalima@2x.png 2x">
+                </li>
+                <li class="help__item help-item">
+                  <img class="help-item__img" src="img/lafarge.png" alt="LAFARGE" width="180" height="81"
+                  srcset="img/lafarge.png 1x, img/lafarge@2x.png 2x">
+                </li>
+                <li class="help__item help-item">
+                  <img class="help-item__img" src="img/skanska.png" alt="SKANSKA" width="180" height="57"
+                  srcset="img/skanska.png 1x, img/skanska@2x.png 2x">
+                </li>
+              </ul>
+            </div>
+          </section>
+          
+          <!-- ABOUT -->
+          
+          <section class="about">
+            <div class="container">
+              <h2 class="about__heading">Что такое СтройКонтроль?</h2>
+              <p class="about__text">СтройКонтроль - это интеллектуальная система управления доставкой, предоставляющая информацию и контроль материалов на сложных строительных площадках в режиме реального времени.</p>
+              
+              
+              <ul class="about__list">
+                <li class="about__list-item about-info about-info--tracking">
+                  <div class="about-info__inner">
+                    <h3 class="about-info__heading">Отслеживайте доставку по всей цепочке поставок</h3>
+                    <p class="about-info__description">От поставщика до субподрядчика - вы всегда знаете, где находятся ваши материалы, благодаря чему обычные отходы уходят в прошлое и сокращаются несчастные случаи на месте.</p>
+                  </div>
+                </li>
+                
+                <li class="about__list-item about-info about-info--optimization">
+                  <div class="about-info__inner">
+                    <h3 class="about-info__heading">Оптимизируйте и контролируйте свое прибытие на место</h3>
+                    <p class="about-info__description">Транспортные средства доставки прибывают в фиксированные промежутки времени в заранее назначенные отсеки, где разгрузочное оборудование готово и ждет их.</p>
+                  </div>
+                </li>
+                
+                <li class="about__list-item about-info about-info--realtime">
+                  <div class="about-info__inner">
+                    <h3 class="about-info__heading">Возьмите под контроль данные в режиме реального времени</h3>
+                    <p class="about-info__description">Интеллектуальная отчетность дает вам возможность принимать решения в зависимости от того, как обстоят дела в данный момент. Больше никаких ручных отчетов по заливке бетона или ежемесячной проверки 10.000 накладных со счетами, все это доступно онлайн без каких-либо усилий.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+          
+          <!-- delivery -->
+          
+          <section class="delivery">
+            <div class="container">
+              <h2 class="delivery__title">Доставка стала проще</h2>
+              <p class="delivery__text">Мы позаботимся обо всех ваших различных поставках и их многочисленных 
+                специализированных требованиях к разгрузке.</p>
+                
+                <ul class="delivery__list">
+                  <li class="delivery__item delivery-item  delivery-item--beton">
+                    <div class="delivery-item__wrapper">
+                      <h3 class="delivery-item__title">Бетон</h3>
+                      <p class="delivery-item__text">Поставки бетона точно планируются, а его состояние контролируется,
+                        что обеспечивает максимально возможное время для установки.</p>
+                      </div>
+                    </li>
+                    <li class="delivery__item delivery-item  delivery-item--removal">
+                      <div class="delivery-item__wrapper">
+                        <h3 class="delivery-item__title">Бетон</h3>
+                        <p class="delivery-item__text">Поставки бетона точно планируются, а его состояние контролируется,
+                          что обеспечивает максимально возможное время для установки.</p>
+                        </div>
+                      </li>
+                      <li class="delivery__item delivery-item  delivery-item--fromwork">
+                        <div class="delivery-item__wrapper">
+                          <h3 class="delivery-item__title">Бетон</h3>
+                          <p class="delivery-item__text">Поставки бетона точно планируются, а его состояние контролируется,
+                            что обеспечивает максимально возможное время для установки.</p>
+                          </div>
+                        </li>
+                        
+                        <li class="delivery__item delivery-item  delivery-item--precasts">
+                          <div class="delivery-item__wrapper">
+                            <h3 class="delivery-item__title">Бетон</h3>
+                            <p class="delivery-item__text">Поставки бетона точно планируются, а его состояние контролируется,
+                              что обеспечивает максимально возможное время для установки.</p>
+                            </div>
+                          </li>
+                          <li class="delivery__item delivery-item  delivery-item--facades">
+                            <div class="delivery-item__wrapper">
+                              <h3 class="delivery-item__title">Бетон</h3>
+                              <p class="delivery-item__text">Поставки бетона точно планируются, а его состояние контролируется,
+                                что обеспечивает максимально возможное время для установки.</p>
+                              </div>
+                            </li>
+                            <li class="delivery__item delivery-item  delivery-item--fit-out">
+                              <div class="delivery-item__wrapper">
+                                <h3 class="delivery-item__title">Бетон</h3>
+                                <p class="delivery-item__text">Поставки бетона точно планируются, а его состояние контролируется,
+                                  что обеспечивает максимально возможное время для установки.</p>
+                                </div>
+                              </li>
+                              
+                              <li class="delivery__item delivery-item  delivery-item--lesa">
+                                <div class="delivery-item__wrapper">
+                                  <h3 class="delivery-item__title">Бетон</h3>
+                                  <p class="delivery-item__text">Поставки бетона точно планируются, а его состояние контролируется,
+                                    что обеспечивает максимально возможное время для установки.</p>
+                                  </div>
+                                </li>
+                                <li class="delivery__item delivery-item  delivery-item--obro">
+                                  <div class="delivery-item__wrapper">
+                                    <h3 class="delivery-item__title">Бетон</h3>
+                                    <p class="delivery-item__text">Поставки бетона точно планируются, а его состояние контролируется,
+                                      что обеспечивает максимально возможное время для установки.</p>
+                                    </div>
+                                  </li>
+                                  <li class="delivery__item delivery-item  delivery-item--mep">
+                                    <div class="delivery-item__wrapper">
+                                      <h3 class="delivery-item__title">Бетон</h3>
+                                      <p class="delivery-item__text">Поставки бетона точно планируются, а его состояние контролируется,
+                                        что обеспечивает максимально возможное время для установки.</p>
+                                      </div>
+                                    </li>
+                                    
+                                  </ul>
+                                  <p class="delivery__text-more">...<span class="delivery__text-more-span">и все остальные материалы,</span><br>которые поступают или покидают вашу площадку</p>
+                                </div>
+                              </section>
+                              
+                              <section class="reliable">
+                                <div class="container">
+                                  <h2 class="reliable__title">Надёжность</h2>
+                                  <p class="reliable__text">Благодаря надёжному строительству выигрывают все - муниципальные органы выполняют свои обязанности перед гражданами, инвесторы получают сертификаты своих проектов, а генеральные подрядчики получают повышенную репутацию.</p>
+                                  
+                                  <ul class="reliable__list">
+                                    <li class="reliable__item reliable-item">
+                                      <h3 class="reliable-item__title">Сниженное загрязнение</h3>
+                                      <p class="reliable-item__text">При оптимизации логистики требуется меньше поездок, что приводит к снижению выбросов CO2. Выбрасываемый CO2 контролируется, что позволяет ставить цели и вносить ощутимые улучшения.</p>
+                                    </li>
+                                    
+                                    <li class="reliable__item reliable-item">
+                                      <h3 class="reliable-item__title">Сниженное загрязнение</h3>
+                                      <p class="reliable-item__text">При оптимизации логистики требуется меньше поездок, что приводит к снижению выбросов CO2. Выбрасываемый CO2 контролируется, что позволяет ставить цели и вносить ощутимые улучшения.</p>
+                                    </li>
+                                    
+                                    <li class="reliable__item reliable-item">
+                                      <h3 class="reliable-item__title">Сниженное загрязнение</h3>
+                                      <p class="reliable-item__text">При оптимизации логистики требуется меньше поездок, что приводит к снижению выбросов CO2. Выбрасываемый CO2 контролируется, что позволяет ставить цели и вносить ощутимые улучшения.</p>
+                                    </li>
+                                    
+                                  </ul>
+                                  
+                                  <div class="reliable__reliable-more reliable-more">
+                                    <p class="reliable-more__text"><b>Надёжная конструкция</b>СтройКонтроль входит в стандартную комплектацию.</p>
+                                    <a class="reliable-more__link" href="#">Подробнее</a>
+                                  </div>
+                                </div>
+                              </section>
+                              
+                              <section class="make">
+                                <div class="container make-container">
+                                  <h2 class="make__title">Создан для строительства</h2>
+                                  
+                                  <ul class="make__list">
+                                    <li class="make__item make-item">
+                                      <h3 class="make-item__title">Хорошо виден в любых условиях</h3>
+                                      <p class="make-item__text">Независимо от того, солнечно или темно, найдется подходящий режим экрана</p>
+                                    </li>
+                                    
+                                    <li class="make__item make-item">
+                                      <h3 class="make-item__title">Поддержка международных языков</h3>
+                                      <p class="make-item__text">На современной стройке работают люди со всего мира. Язык не является проблемой для СтройКонтроля.</p>
+                                    </li>
+                                    
+                                    <li class="make__item make-item">
+                                      <h3 class="make-item__title">Работает на любом устройстве - мобильном телефоне, планшете, ноутбуке</h3>
+                                      <p class="make-item__text">Люди на разных должностях используют разные устройства. СтройКонтроль автоматически настраивается в соответствии с требованиями. Вы также можете проецировать панели мониторинга живого проекта на настенные экраны.</p>
+                                    </li>
+                                  </ul>
+                                  
+                                  <div class="make__wrapper">
+                                    <a class="make__link" href="#">Заказать демо</a>
+                                    <a class="make__link make__link--black" href="#">Подробнее</a>
+                                  </div>
+                                  
+                                  <div class="container">
+                                    <ul class="make__services-list">
+                                      <li class="make__services-item make-services-item make-services-item--student">
+                                        <h3 class="make-services-item__title">Привлечение субподрядчика</h3>
+                                        <p class="make-services-text">Для выполнения этой работы вам понадобятся ваши субподрядчики. У нас есть проверенный и надежный процесс для этого.</p>
+                                      </li>
+                                      <li class="make__services-item make-services-item make-services-item--key">
+                                        <h3 class="make-services-item__title">Привлечены ключевые поставщики</h3>
+                                        <p class="make-services-text">У нас уже есть ключевые поставщики, использующие программное обеспечение, что обеспечивает еще больший контроль и прозрачность информации.</p>
+                                      </li>
+                                      <li class="make__services-item make-services-item make-services-item--persent">
+                                        <h3 class="make-services-item__title">100% соответствие</h3>
+                                        <p class="make-services-text">ДУ нас есть безупречный список обеспечения соответствия требованиям, которые необходимы вам для успешного выполнения проекта с помощью СтройКонтроль.</p>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </section>
+                              
+                              <section class="work">
+                                <div class="container work__container">
+                                  <div class="work__inner">
+                                    <h2 class="work__title">Как с нами работать</h2>
+                                    <p class="work__text">Начать работу со СтройКонтроль легко, достаточно заказать демо-версию.</p>
+                                  </div>
+                                  
+                                  <div class="work__wrapper">
+                                    <ol class="work__list">
+                                      <li class="work__item work-item">
+                                        <div class="work-item__wrapper">
+                                          <h3 class="work-item__title">Заказать демо</h3>
+                                          <p class="work-item__text">Вы увидите презентацию, в которой подробно объясняется, как работает СтройКонтроль для решения задач строительной логистики в таких сложных проектах, как ваш.</p>
+                                        </div>
+                                      </li>
+                                      <li class="work__item work-item">
+                                        <div class="work-item__wrapper">
+                                          <h3 class="work-item__title">Согласование сделки</h3>
+                                          <p class="work-item__text">Мы обсудим ваш строительный проект и предложим реализацию СтройКонтроль, которая идеально соответствует вашим потребностям и будет иметь для вас ценность.</p>
+                                        </div>
+                                      </li>
+                                      <li class="work__item work-item">
+                                        <div class="work-item__wrapper">
+                                          <h3 class="work-item__title">Подготовка</h3>
+                                          <p class="work-item__text">Мы полностью обучаем вашу команду тому, как использовать систему, с помощью онлайн-видеоуроков и обеспечиваем постоянную всестороннюю поддержку.</p>
+                                        </div>
+                                      </li>
+                                      <li class="work__item work-item">
+                                        <div class="work-item__wrapper">
+                                          <h3 class="work-item__title">Внедрение и интеграция</h3>
+                                          <p class="work-item__text">Мы настраиваем программное обеспечение так, чтобы оно точно моделировало вашу площадку, а затем помогаем вам интегрировать его с программным обеспечением Business Intelligence для получения новых мощных аналитических данных.</p>
+                                        </div>
+                                      </li>
+                                    </ol>
+                                    
+                                    <div class="work__links work-links">
+                                      <a class="work-links__link" href="#">Заказать демо</a>
+                                      <a class="work-links__link work-links__link--white" href="#">Подробнее</a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </section>
+                              
+                              <section class="choose">
+                                <div class="container">
+                                  <h2 class="choose__title">Почему нужно выбрать нас?</h2>
+                                  <p class="choose__sub-title">В строительной логистике всегда есть возможности для улучшения.</p>
+                                  <div class="choose__wrapper">
+                                    <div class="choose__left">
+                                      <ul class="choose__list">
+                                        <li class="choose__item choose-card">
+                                          <h3 class="choose-card__title">Отмеченное наградами ПО</h3>
+                                          <p class="choose-card__text">Всемирно известное программное обеспечение, признанное государственными
+                                            учреждениями, инновационными группами и
+                                            техническими организациями</p>
+                                          </li>
+                                          <li class="choose__item choose-card">
+                                            <h3 class="choose-card__title">Большой потенциал</h3>
+                                            <p class="choose-card__text">Входит в топ-25 самых многообещающих стартапов ConTech по версии Cemex Ventures,
+                                              Moscow Consulting Group, BuiltWorld и PwC</p>
+                                            </li>
+                                            <li class="choose__item choose-card">
+                                              <h3 class="choose-card__title">Выбор лидеров рынка</h3>
+                                              <p class="choose-card__text">Рекомендуемый поставщик технологий для 3 из 10 ведущих генеральных подрядчиков в
+                                                Европе</p>
+                                              </li>
+                                              <li class="choose__item choose-card">
+                                                <h3 class="choose-card__title">Устойчивое развитие и безопасность</h3>
+                                                <p class="choose-card__text">Способствует снижению выбросов CO2 и повышает безопасность на месте</p>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="choose__right choose-quote">
+                                            <blockquote class="choose-quote__text">Мы видим огромный потенциал в таких решениях, как СтройКонтроль, и хотим
+                                              использовать их для улучшения наших
+                                              строительных процессов.</blockquote>
+                                              <div class="choose-quote__info name-info">
+                                                <div class="name-info__victor">
+                                                  <h4 class="name-info__title">Волков Матвей</h4>
+                                                  <p class="name-info__text">Генеральный директор ООО “СпецСтрой”</p>
+                                                </div>
+                                              </div>
+                                              <ul class="choose-quote__slider-list">
+                                                <li class="choose-quote__slider-item choose-quote__slider-item--active">
+                                                  <button class="choose-quote__btn" aria-label="next"></button>
+                                                </li>
+                                                <li class="choose-quote__slider-item">
+                                                  <button class="choose-quote__btn" aria-label="next"></button>
+                                                </li>
+                                              </ul>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </section>
+                                      
+                                      <section class="partners">
+                                        <div class="container">
+                                          <ul class="partners__list">
+                                            <li class="partners__item">
+                                              <a class="partners__link" href="#" target="_blank">
+                                                <img class="partners__img partners__img--build" src="img/build.png" alt="build" width="126" height="112"
+                                                srcset="img/build.png 1x, img/build@2x.png 2x">
+                                                <p class="partners__text">50 лучших инструментов ConTech</p>
+                                              </a>
+                                            </li>
+                                            <li class="partners__item">
+                                              <a class="partners__link" href="#" target="_blank">
+                                                <img class="partners__img partners__img--contech" src="img/contech.png" alt="contech" width="164" height="88"
+                                                srcset="img/contech.png 1x, img/contech@2x.png 2x">
+                                                <p class="partners__text">25 лучших стартапов ConTech в ЕС</p>
+                                              </a>
+                                            </li>
+                                            <li class="partners__item">
+                                              <a class="partners__link" href="#" target="_blank">
+                                                <img class="partners__img partners__img--startup" src="img/start-up.png" alt="startup" width="162"
+                                                height="110" srcset="img/start-up.png 1x, img/start-up@2x.png 2x">
+                                                <p class="partners__text">50 лучших стартапов Global ConTech</p>
+                                              </a>
+                                            </li>
+                                            <li class="partners__item">
+                                              <a class="partners__link" href="#" target="_blank">
+                                                <img class="partners__img partners__img--proptech" src="img/proptech.png" alt="proptech" width="184"
+                                                height="112">
+                                                <p class="partners__text">2018 - 50 лучших стартапов ЕС PropTech</p>
+                                              </a>
+                                            </li>
+                                          </ul>
+                                        </div>
+                                      </section>
+                                      
+                                      <section class="logic">
+                                        <div class="container logic__container">
+                                          <h2 class="logic__title">Готовы оптимизировать логистику доставки для вашего сложного проекта?</h2>
+                                          
+                                          <div class="logic__inner">
+                                            <a class="logik__links" href="#">Заказать демо</a>
+                                            <a class="logik__links logik__links--white" href="#">Связаться с нами</a>
+                                          </div>
+                                        </div>
+                                      </section>
+                                      
+                                    </main>
+                                  <footer class="site-footer">
+                                    <div class="container footer__container">
+                                      <div class="site-footer__hedader">
+                                        <div class="site-footer__logo-list logo-list">
+                                          <a class="logo-list__logo" href="#">
+                                            <img class="logo-list__logo-img" src="img/logo.svg" alt="logo"
+                                            width="175" height="33">
+                                          </a>
+                                          <ul class="logo-list__list">
+                                            <li class="logo-list__item">
+                                              <address class="logo-list__address">г. Москва <br>Пресненская наб., 88, оф. 527</address>
+                                            </li>
+    
+                                            <li class="logo-list__email">
+                                              <a class="logo-list__emailto" href="mailto:info@stroycontrol.ru">info@stroycontrol.ru</a>
+                                            </li>
+    
+                                            <li class="logo-list__tel-link">
+                                              <a class="logo-list__tel" href="tel:+7-(945)-123-45-67">+7 (945) 123-45-67</a>
+                                            </li>
+    
+                                            <li class="logo-list__social">
+                                              <a class="logo-list__social--facebook" href="https://facebook.com">
+                                                <img src="img/facebook.svg" alt="facebook" width="24" height="24">
+                                              </a>
+                                            </li>
+                                          </ul>
+                                        </div>
+    
+                                        <div class="site-footer__lists site-footer__list">
+                                          <div class="site-footer-list__wrapper">
+                                            <h2 class="site-footer-list__title">Наш продукт</h2>
+                                            <ul class="site-footer-list__list">
+                                              <li class="site-footer-list__item">
+                                                <a href="#">Процесс</a>
+                                                <a href="#">Процесс</a>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="site-footer-list__wrapper">
+                                            <h2 class="site-footer-list__title">Наш продукт</h2>
+                                            <ul class="site-footer-list__list">
+                                              <li class="site-footer-list__item">
+                                                <a href="#">Процесс</a>
+                                                <a href="#">Процесс</a>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="site-footer-list__wrapper">
+                                            <h2 class="site-footer-list__title">Наш продукт</h2>
+                                            <ul class="site-footer-list__list">
+                                              <li class="site-footer-list__item">
+                                                <a href="#">Процесс</a>
+                                                <a href="#">Процесс</a>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="site-footer__footer site-footer-footer">
+                                        <p class="site-footer-footer__est">© 2020 СтройКонтроль, Все права защищены.</p>
+                                        <p class="site-footer-footer__politics">Политика конфиденциальности</p>
+                                      </div>
+                                    </div>
+                                  </footer>  
+                                    
+                                  </body>
+                                  </html>
+                                  

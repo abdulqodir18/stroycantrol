@@ -1,0 +1,17 @@
+.work {
+    padding-top: 129px;
+    padding-bottom: 96px;
+}
+
+.work__container {
+    display: flex;
+    align-items: flex-start;
+}
+
+@media only screen and (max-width:900px) {
+    .work__container {
+      
+        flex-direction: column;
+        align-items: center;
+    }
+}

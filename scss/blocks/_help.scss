@@ -1,0 +1,117 @@
+.helper {
+    padding-top: 84px;
+    padding-bottom: 39px;
+}
+.container {
+}
+.help-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.help__inner {
+    display: flex;
+    margin-bottom: 71px;
+    
+    &::after {
+        content: "";
+        align-self: center;
+        margin-bottom: 25px;
+        width: 464px;
+        height: 400px;
+        background-image: url("../../img/usta-oka-opa.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+.help__inner-wrapper{
+    max-width: 542px;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.help__title {
+    margin: 0;
+    margin-bottom: 16px;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 48px;   
+    color: #212B31;
+}
+.help__text {
+    margin: 0;
+    margin-bottom: 28px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #72787D;
+}
+.help__offer {
+    font-size: 20px;
+    line-height: 32px; 
+    color: #212B31;
+    position: relative;
+    max-width: 250px;
+    
+    &::after {
+        content: "";
+        z-index: -5;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        height: 16px;
+        background-color: #FFD042;
+    }
+}
+
+@media only screen and (max-width:1100px) {
+    .help__inner {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .help__inner-wrapper{
+        max-width: 850px; 
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0 ;
+    }
+    .help__title {
+        text-align: center;
+    }
+    .help__text {
+        text-align: center;
+    }
+}
+@media only screen and (max-width:500px) {
+    .helper {
+        padding-top: 44px;
+        padding-bottom: 19px;
+    }
+    .help__inner {
+        
+        &::after {
+            width: 250px;
+            height: 150px;
+        }
+    }
+    .help__inner-wrapper{
+        max-width: 450px; 
+    }
+    .help__title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .help__text {
+        font-size: 18px;
+        line-height: 24px;
+        
+    }
+}
+@media only screen and (max-width:390px) {
+    .help__inner-wrapper{
+        max-width: 320px; 
+    }
+}
