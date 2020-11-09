@@ -1,0 +1,85 @@
+.delivery-item {
+    display: flex;
+    align-items: flex-start;
+    
+    &::before {
+        content: "";
+        width: 44px;
+        height: 44px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 16px;
+    }
+}
+.delivery-item--beton::before {
+    background-image: url(../img/beton.png);
+}
+.delivery-item--removal::before {
+    background-image: url(../img/removal.png);
+}
+.delivery-item--fromwork::before {
+    background-image: url(../img/Formwork.png);
+}
+.delivery-item--precasts::before {
+    background-image: url(../img/Precasts.png);
+}
+.delivery-item--facades::before {
+    background-image: url(../img/Facades.png);
+}
+.delivery-item--fit-out::before {
+    background-image: url(../img/Fit-out.png);
+}
+.delivery-item--lesa::before {
+    background-image: url(../img/Scaffolding.png);
+}
+.delivery-item--obro::before {
+    background-image: url(../img/obro.png);
+}
+.delivery-item--mep::before {
+    background-image: url(../img/MEP.png);
+}
+.delivery-item__wrapper {
+    width: 100%;
+    max-width: 270px;
+}
+.delivery-item__title {
+    margin: 0;
+    margin-bottom: 11px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #212B31;
+}
+.delivery-item__text {
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px; 
+    color: #72787D;
+}
+@media only screen and (max-width: 1110px) {
+.delivery-item {
+    flex-direction: column;
+    align-items: center;
+}
+.delivery-item__title {
+    text-align: center;
+}
+.delivery-item__text {
+    text-align: center;
+}
+
+}
+@media only screen and (max-width: 950px) {
+.delivery-item__wrapper {
+    max-width: 350px;
+    width: 100%;
+    margin-top: 10px;
+}
+}
+@media only screen and (max-width:400px) {
+    
+}

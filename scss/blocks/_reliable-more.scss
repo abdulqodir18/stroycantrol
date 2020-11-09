@@ -1,0 +1,100 @@
+.reliable__reliable-more {
+}
+.reliable-more {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background: #F6F8F9;
+    border-radius: 5px;
+    
+    &::before {
+        content: "";
+        width: 48px;
+        height: 48px;
+        background-image: url("../../img/reliable.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 24px;
+    }
+}
+.reliable-more__text {
+    padding: 0;
+    margin-right: 66px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;   
+    color: #212B31;
+}
+.reliable-more__link {
+    text-decoration: none;
+    display: block;
+    background-color: #FFFFFF;
+    border: 1px solid #DADEDF;
+    border-radius: 4px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px; 
+    color: #212B31;
+    padding: 13px 25px;
+    transition: background-color 0.3s ease;
+   
+    &:hover {
+        background-color: #F6F8F9;
+    }
+    &:focus {
+        background-color: #e7e8e9;
+    }
+}
+@media only screen and ( max-width:1150px) {
+    .reliable-more {
+        max-width: 100%;
+        padding: 10px;
+        justify-content: space-between;
+
+        &::after {
+            max-width: 30px;
+            max-height: 30px;
+        }
+    }
+}
+@media only screen and ( max-width:1060px) {
+    .reliable-more__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+        text-align: center;
+        margin: 0;
+        margin-right: 24px;
+    }
+}
+@media only screen and ( max-width:670px) {
+    .reliable-more {
+        flex-direction: column;
+        justify-content: center;
+
+        &::before {
+            margin: 0;
+            margin-bottom: 10px;
+        }
+    }
+
+    .reliable-more__link {
+        margin-top: 10px;
+        padding: 10px;
+        font-size: 16px;
+    }
+    .reliable-more__text {
+        margin-right: 0;
+        line-height: 24px;
+    }
+}
+@media only screen and ( max-width:400px) {
+    .reliable-more__text {
+        font-size: 16px;
+        line-height: 20px;
+        margin: 0;
+
+    }
+}

@@ -1,0 +1,88 @@
+.reliable {
+    padding-top: 62px;
+    padding-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.reliable__title {
+    margin: 0;
+    margin-bottom: 17px;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 48px; 
+    text-align: center; 
+    color: #212B31;
+    position: relative;
+    width: 197px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    &::after {
+        content: "";
+        position: absolute;
+        top: -40%;
+        right: -15%;
+        display: block;
+        width: 42px;
+        height: 40px;
+        background-image: url(../img/flower.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+    }
+}
+.reliable__text {
+    margin: 0;
+    margin-bottom: 48px;
+    max-width: 854px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center; 
+    color: #72787D;  
+    margin-left: auto;
+    margin-right: auto;
+}
+.reliable__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-bottom: 62px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.reliable__item {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+@media only screen and (max-width:1150px) {
+    .reliable__list {
+        justify-content: center;
+    }
+}
+@media only screen and (max-width:700px) {
+    .reliable__title {
+        font-weight: normal;
+        margin-bottom: 10px;
+    }
+    .reliable__text {
+        font-size: 18px;
+        font-weight: normal;
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width:400px) {
+    .reliable__title {
+        font-size: 24px;
+
+        &::after {
+            right: -5%;
+        }
+    }
+    .reliable__text {
+       line-height: 24px;
+    }
+}
